@@ -1,9 +1,7 @@
 'use client';
 
-import { useClerk } from '@clerk/nextjs';
 
 export function MembershipSection() {
-  const { openSignUp } = useClerk();
 
   return (
     <section className="py-24 px-6">
@@ -25,8 +23,8 @@ export function MembershipSection() {
 
         {/* Pill CTA button — identical to Interface Craft "Join for $100" button */}
         <div className="flex items-center gap-4">
-          <button
-            onClick={() => openSignUp({})}
+          <a
+            href="#"
             className="font-sans text-sm font-medium
                        bg-white text-black
                        px-5 py-2 rounded-full
@@ -35,7 +33,7 @@ export function MembershipSection() {
                        cursor-pointer"
           >
             Request access
-          </button>
+          </a>
 
           {/* Footnote beside button — like Interface Craft's regional pricing note */}
           <span className="font-sans text-xs text-text-tertiary leading-relaxed">

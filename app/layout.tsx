@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Playfair_Display } from 'next/font/google';
 import { GeistSans } from 'geist/font/sans';
-import { ClerkProvider } from '@clerk/nextjs';
 import './globals.css';
 
 // Serif display font — used for all headings
@@ -37,15 +36,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
-      <html
-        lang="en"
-        className={`${playfair.variable} ${GeistSans.variable}`}
-      >
-        <body className="bg-page text-text-primary font-sans antialiased">
-          {children}
-        </body>
-      </html>
-    </ClerkProvider>
+    <html
+      lang="en"
+      className={`${playfair.variable} ${GeistSans.variable}`}
+    >
+      <body className="bg-page text-text-primary font-sans antialiased">
+        {children}
+      </body>
+    </html>
   );
 }

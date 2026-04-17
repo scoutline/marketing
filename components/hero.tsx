@@ -1,10 +1,8 @@
 'use client';
 
-import { useClerk } from '@clerk/nextjs';
 import { CardStack } from './card-stack';
 
 export function Hero() {
-  const { openSignUp } = useClerk();
 
   return (
     /*
