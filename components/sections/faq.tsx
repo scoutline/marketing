@@ -13,7 +13,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'What file formats does Scoutline support?',
-    a: 'PDF, DOCX, and plain text files up to 100MB. Documents are processed through Google Document AI\'s Contract Processor, which preserves clause structure, section headings, party names, and page positions - not just raw text.',
+    a: 'Upload PDFs, DOCX, or plain text up to 100MB ( with 1GB through integrations ), all housed in an isolated AWS storage instance dedicated to your organization. Every document is parsed via Google Document AI’s Contract Processor, ensuring we preserve the structural integrity of your files—maintaining clause hierarchies, section headings, and page positioning rather than just extracting raw text.',
   },
   {
     q: 'How does onboarding work?',

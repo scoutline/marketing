@@ -17,7 +17,7 @@ export function MembershipSection() {
 
         <p className="body-text mb-8">
           We are accepting a limited number of firms before the general
-          availability release. There is no obligation — only early access
+          availability release. There is no obligation - only early access
           and a direct line to the team while we build.
         </p>
 
@@ -37,7 +37,7 @@ export function MembershipSection() {
 
           {/* Footnote beside button — like Interface Craft's regional pricing note */}
           <span className="font-sans text-xs text-text-tertiary leading-relaxed">
-            No credit card required during the beta period.
+            7 days free. No commitment.
           </span>
         </div>
 

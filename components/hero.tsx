@@ -23,7 +23,7 @@ export function Hero() {
                    leading-[1.18] tracking-[-0.025em]
                    max-w-wide mb-5 animate-fade-up"
       >
-        Modern Law, Optimized
+        Precision Over Proxy.
       </h1>
 
       {/* Subline — short, same width constraint as Interface Craft */}
@@ -32,7 +32,7 @@ export function Hero() {
                    max-w-prose leading-relaxed mb-16
                    animate-fade-up animation-delay-100"
       >
-        Citations you can trust. Intelligence you can verify. Built for zero-error environments.
+        Verified intelligence. Citations you can trust.
       </p>
 
       {/* CTA — updated to simple documentation link placeholder */}

@@ -14,7 +14,7 @@ export function ProductSection() {
 
         <p className="body-text mb-4">
           The platform is organized into four modules. <strong className="text-text-primary font-medium">The Vault </strong> is
-          your firm&apos;s encrypted document storage — every file org-isolated,
+          your firm&apos;s encrypted document storage - every file org-isolated,
           never used for training. <strong className="text-text-primary font-medium">Maverick</strong> is
           the AI case intelligence layer that answers questions about your
           documents and cites the exact page and line it drew from.{' '}

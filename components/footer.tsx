@@ -28,7 +28,7 @@ export function Footer() {
             Terms
           </a>
           <a
-            href="mailto:hello@usescoutline.com"
+            href="mailto:harsha@usescoutline.com"
             className="font-sans text-xs text-text-tertiary
                        hover:text-text-secondary transition-colors duration-200"
           >
