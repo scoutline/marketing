@@ -46,6 +46,10 @@ export default function RootLayout({
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-FC8DRB79Z0"
         />
+        <Script
+          id="cookieyes"
+          src="https://cdn-cookieyes.com/client_data/e4c0fcd8158d34d071b07019/script.js"
+        />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
