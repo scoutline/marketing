@@ -32,7 +32,7 @@ export function MembershipSection() {
                        transition-colors duration-200
                        cursor-pointer"
           >
-            Request access
+            signup
           </a>
 
           {/* Footnote beside button — like Interface Craft's regional pricing note */}
