@@ -28,6 +28,15 @@ export function Footer() {
             Terms
           </a>
           <a
+            href="https://status.usescoutline.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans text-xs text-text-tertiary
+                       hover:text-text-secondary transition-colors duration-200"
+          >
+            Status
+          </a>
+          <a
             href="mailto:harsha@usescoutline.com"
             className="font-sans text-xs text-text-tertiary
                        hover:text-text-secondary transition-colors duration-200"
