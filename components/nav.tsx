@@ -23,6 +23,33 @@ export function Nav() {
           Scoutline
         </a>
 
+        {/* Center Navigation Links */}
+        <div className="hidden sm:flex items-center gap-8">
+          <a
+            href="https://docs.usescoutline.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans text-xs font-medium text-text-secondary
+                       hover:text-text-primary transition-colors duration-200"
+          >
+            Docs
+          </a>
+          <a
+            href="/careers"
+            className="font-sans text-xs font-medium text-text-secondary
+                       hover:text-text-primary transition-colors duration-200"
+          >
+            Careers
+          </a>
+          <a
+            href="/pricing"
+            className="font-sans text-xs font-medium text-text-secondary
+                       hover:text-text-primary transition-colors duration-200"
+          >
+            Pricing
+          </a>
+        </div>
+
         {/* Right side — simplified to a placeholder link */}
         <div className="flex items-center gap-3">
           <a

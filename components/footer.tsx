@@ -14,13 +14,6 @@ export function Footer() {
         {/* Right: links */}
         <div className="flex items-center gap-5">
           <a
-            href="/pricing"
-            className="font-sans text-xs text-text-tertiary
-                       hover:text-text-secondary transition-colors duration-200"
-          >
-            Pricing
-          </a>
-          <a
             href="/privacy"
             className="font-sans text-xs text-text-tertiary
                        hover:text-text-secondary transition-colors duration-200"

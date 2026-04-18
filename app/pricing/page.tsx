@@ -191,16 +191,16 @@ export default function PricingPage() {
               <h3 className="section-label mb-6 text-text-primary opacity-50 uppercase tracking-[0.1em] text-[11px]">{section.category}</h3>
               <div className="space-y-0">
                 {section.rows.map((row, rowIdx) => (
-                  <div key={rowIdx} className="group py-5 border-t border-white/[0.08] flex justify-between items-center">
+                  <div key={rowIdx} className="group py-5 border-t border-white/[0.08] flex flex-col sm:flex-row justify-between sm:items-center gap-4 sm:gap-0">
                     <span className="body-text text-text-primary text-[0.9375rem]">{row.name}</span>
-                    <div className="flex items-center gap-8 text-right">
+                    <div className="flex items-center gap-6 sm:gap-8 text-right self-end sm:self-auto">
                       <div className="flex flex-col items-end">
                         <span className="text-[10px] text-text-tertiary uppercase tracking-wider mb-1">Solo</span>
-                        <span className="body-text text-sm">{row.solo}</span>
+                        <span className="body-text text-xs sm:text-sm">{row.solo}</span>
                       </div>
-                      <div className="flex flex-col items-end min-w-[80px]">
+                      <div className="flex flex-col items-end min-w-[70px] sm:min-w-[80px]">
                         <span className="text-[10px] text-text-tertiary uppercase tracking-wider mb-1">Teams</span>
-                        <span className="body-text text-sm font-medium text-text-primary">{row.teams}</span>
+                        <span className="body-text text-xs sm:text-sm font-medium text-text-primary">{row.teams}</span>
                       </div>
                     </div>
                   </div>
