@@ -37,7 +37,9 @@ export function Hero() {
 
       {/* CTA — updated to simple documentation link placeholder */}
       <a
-        href="#"
+        href="https://docs.usescoutline.com/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="font-sans text-sm font-medium
                    bg-white text-black
                    px-6 py-2.5 rounded-full
