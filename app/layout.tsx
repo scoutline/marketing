@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Playfair_Display } from 'next/font/google';
 import { GeistSans } from 'geist/font/sans';
+import Script from 'next/script';
 import './globals.css';
 
 // Serif display font — used for all headings
@@ -40,6 +41,21 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${GeistSans.variable}`}
     >
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-FC8DRB79Z0"
+        />
+        <Script id="google-analytics">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-FC8DRB79Z0');
+          `}
+        </Script>
+      </head>
       <body className="bg-page text-text-primary font-sans antialiased">
         {children}
       </body>
