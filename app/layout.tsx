@@ -13,7 +13,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Scoutline — The Operating System for Modern Law Firms',
+  title: 'Scoutline - The Operating System for Modern Law Firms',
   description:
     'AI-powered legal intelligence with verifiable citations. Every answer traceable to the exact page and line.',
   openGraph: {
